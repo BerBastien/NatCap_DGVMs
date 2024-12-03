@@ -1,0 +1,288 @@
+# ave_region :: lon=   -1.875  358.125, lat=  -90.000   90.000
+# branch_time ::   2005.0
+# cdi :: Climate Data Interface version 1.5.9 (http://code.zmaw.de/projects/cdi)
+# cdo :: Climate Data Operators version 1.5.9 (http://code.zmaw.de/projects/cdo)
+# cmor_version :: 2.5.1
+# comment :: \nThis 21th century simulation has been forced by prescribed concentration following the rcp 6.0 scenario.
+# contact :: ipsl-cmip5 _at_ ipsl.jussieu.fr Data manager : Sebastien Denvil
+# creation_date :: 2011-04-15T20:41:51Z
+# description :: IPSL-CM5A-LR rcp60 tas 0-360E -90-90N ensemble
+# experiment :: RCP6
+# experiment_id :: historical+rcp60
+# file :: /data/volume_2/climexp/data/icmip5_tas_Amon_IPSL-CM5A-LR_rcp60_0-360E_-90-90N_n_000.dat
+# forcing :: Nat,Ant,GHG,SA,Oz,LU,SS,Ds,BC,MD,OC,AA
+# frequency :: mon
+# history ::  2022-10-25 20:05:39 bin/daily2longer data/icmip5_tas_Amon_IPSL-CM5A-LR_rcp60_0-360E_-90-90N_n_000.dat 1 mean add_anom minfac 30 cmip5_tas_Amon_IPSL-CM5A-LR_rcp60_0-360E_-90-90N_n_+++_mean1_anom_30\n 2022-10-25 20:05:20 dat2nc ./data/icmip5_tas_Amon_IPSL-CM5A-LR_rcp60_0-360E_-90-90N_n_000.dat i IPSL-CM5A-LR_rcp60_tas_0-360E_-90-90N_ensemble ./data/icmip5_tas_Amon_IPSL-CM5A-LR_rcp60_0-360E_-90-90N_n_000.nc\n 2022-10-25 20:05:17 bin/get_index CMIP5/monthly/tas/tas_Amon_IPSL-CM5A-LR_rcp60_000.nc 0 360 -90 90 dipole no minfac 30 nearest lsmask CMIP5/fixed/sftlf_fx_IPSL-CM5A-LR_historical_r0i0p0.nc all nomissing cmip5_tas_Amon_IPSL-CM5A-LR_rcp60_0-360E_-90-90N_n_+++\nThu Mar 28 13:48:42 2013: cdo -f nc4 -z zip copy tas/tas_Amon_IPSL-CM5A-LR_historical_r1i1p1.nc ethz/cmip5/rcp60/Amon/tas/IPSL-CM5A-LR/r1i1p1/tas_Amon_IPSL-CM5A-LR_rcp60_r1i1p1_200601-210012.nc tas/tas_Amon_IPSL-CM5A-LR_rcp60_r1i1p1.nc\nWed Mar 27 13:48:35 2013: cdo -f nc4 -z zip copy ethz/cmip5/historical/Amon/tas/IPSL-CM5A-LR/r1i1p1/tas_Amon_IPSL-CM5A-LR_historical_r1i1p1_185001-200512.nc tas/tas_Amon_IPSL-CM5A-LR_historical_r1i1p1.nc\n2011-02-23T17:52:35Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.
+# initialization_method ::                1
+# institute_id :: IPSL
+# institution :: KNMI Climate Explorer and IPSL (Institut Pierre Simon Laplace, Paris, France)
+# minimal_valid_fraction ::  30.00
+# model_id :: IPSL-CM5A-LR
+# modeling_realm :: atmos
+# olderfile :: CMIP5/monthly/tas/tas_Amon_IPSL-CM5A-LR_rcp60_000.nc
+# parent_experiment :: historical
+# parent_experiment_id :: historical
+# parent_experiment_rip :: r1i1p1
+# physics_version ::        1
+# product :: output
+# project_id :: CMIP5
+# realization ::        1
+# references :: Model documentation and further reference available here : http://icmc.ipsl.fr
+# scripturl01 :: http://climexp.knmi.nl/get_index.cgi?email=someone@somewhere&field=cmip5_tas_Amon_IPSL-CM5A-LR_rcp60&gridpoints=false&intertype=nearest&masktype=all
+# scripturl02 :: http://climexp.knmi.nl/daily2longer.cgi?EMAIL=someone@somewhere&NAME=mean&NPERYEAR=12&STATION=IPSL-CM5A-LR_rcp60_tas_0-360E_-90-90N_ensemble&TYPE=i&WMO=cmip5_tas_Amon_IPSL-CM5A-LR_rcp60_0-360E_-90-90N_n_%%%&addoption=add_anom&minfac=30&nperyearnew=1&oper=mean&sum=1
+# source :: IPSL-CM5A-LR (2010) : atmos : LMDZ4 (LMDZ4_v5, 96x95x39); ocean : ORCA2 (NEMOV2_3, 2x2L31); seaIce : LIM2 (NEMOV2_3); ocnBgchem : PISCES (NEMOV2_3); land : ORCHIDEE (orchidee_1_9_4_AR5)
+# table_id :: Table Amon (31 January 2011) 53b766a395ac41696af40aab76a49ae5
+# tas [Celsius] annual mean of Near-Surface Air Temperature
+# title :: spatial statistic of IPSL-CM5A-LR model output prepared for CMIP5 RCP6 r1i1p1
+# tracking_id :: dab71a17-e1a7-4c82-9102-ae5704951c98
+1850   12.31572    
+1851   12.19933    
+1852   12.21293    
+1853   12.23176    
+1854   12.22118    
+1855   12.18666    
+1856   12.07553    
+1857   11.91033    
+1858   11.82763    
+1859   11.89346    
+1860   12.05567    
+1861   12.16575    
+1862   12.09249    
+1863   12.07867    
+1864   12.22621    
+1865   12.35602    
+1866   12.22807    
+1867   12.04269    
+1868   12.04573    
+1869   12.18018    
+1870   12.16007    
+1871   12.22753    
+1872   12.13416    
+1873   12.26162    
+1874   12.29449    
+1875   12.40161    
+1876   12.21444    
+1877   12.24865    
+1878   12.24079    
+1879   12.07383    
+1880   12.20488    
+1881   12.39426    
+1882   12.23503    
+1883   12.08003    
+1884   11.73976    
+1885   11.82535    
+1886   11.95820    
+1887   11.94006    
+1888   12.02459    
+1889   11.87265    
+1890   11.92610    
+1891   11.97431    
+1892   12.08119    
+1893   11.99943    
+1894   11.97152    
+1895   11.99791    
+1896   11.99267    
+1897   11.96590    
+1898   11.94078    
+1899   11.94641    
+1900   12.04165    
+1901   12.05187    
+1902   12.25579    
+1903   12.12019    
+1904   12.16145    
+1905   12.25027    
+1906   12.22192    
+1907   12.26060    
+1908   12.22375    
+1909   12.20546    
+1910   12.16450    
+1911   12.31186    
+1912   12.19829    
+1913   12.17806    
+1914   12.22966    
+1915   12.25598    
+1916   12.12831    
+1917   12.25584    
+1918   12.35886    
+1919   12.24727    
+1920   12.21238    
+1921   12.28790    
+1922   12.42503    
+1923   12.35075    
+1924   12.31622    
+1925   12.42779    
+1926   12.61193    
+1927   12.57475    
+1928   12.53003    
+1929   12.52570    
+1930   12.45086    
+1931   12.49902    
+1932   12.60878    
+1933   12.30015    
+1934   12.20125    
+1935   12.08502    
+1936   12.42885    
+1937   12.51005    
+1938   12.44485    
+1939   12.35875    
+1940   12.45023    
+1941   12.49227    
+1942   12.53105    
+1943   12.57759    
+1944   12.52067    
+1945   12.47675    
+1946   12.53249    
+1947   12.52159    
+1948   12.51926    
+1949   12.79195    
+1950   12.72997    
+1951   12.68884    
+1952   12.47111    
+1953   12.63284    
+1954   12.58496    
+1955   12.46194    
+1956   12.55136    
+1957   12.51438    
+1958   12.36503    
+1959   12.53307    
+1960   12.82586    
+1961   12.80545    
+1962   12.53183    
+1963   12.43925    
+1964   12.25048    
+1965   12.15461    
+1966   12.30175    
+1967   12.52725    
+1968   12.41917    
+1969   12.43665    
+1970   12.55638    
+1971   12.55202    
+1972   12.53462    
+1973   12.61718    
+1974   12.66231    
+1975   12.57449    
+1976   12.67132    
+1977   12.70026    
+1978   12.61133    
+1979   12.53564    
+1980   12.55419    
+1981   12.71499    
+1982   12.76815    
+1983   12.67126    
+1984   12.72005    
+1985   12.57677    
+1986   12.78108    
+1987   12.91702    
+1988   12.96147    
+1989   13.07547    
+1990   13.13023    
+1991   12.88795    
+1992   12.82234    
+1993   13.05780    
+1994   13.01573    
+1995   12.91906    
+1996   13.02502    
+1997   13.21034    
+1998   13.37283    
+1999   13.38161    
+2000   13.44380    
+2001   13.43927    
+2002   13.42452    
+2003   13.39136    
+2004   13.42123    
+2005   13.50338    
+2006   13.43514    
+2007   13.41565    
+2008   13.34933    
+2009   13.43238    
+2010   13.47924    
+2011   13.43460    
+2012   13.48342    
+2013   13.69806    
+2014   13.73347    
+2015   13.72941    
+2016   13.74853    
+2017   13.81915    
+2018   13.92342    
+2019   13.78498    
+2020   13.79813    
+2021   13.84673    
+2022   13.90247    
+2023   13.86816    
+2024   13.95089    
+2025   14.09880    
+2026   14.00828    
+2027   13.95364    
+2028   14.00693    
+2029   14.02694    
+2030   14.05036    
+2031   14.02983    
+2032   14.24572    
+2033   14.05888    
+2034   14.11308    
+2035   14.23641    
+2036   14.06558    
+2037   14.18890    
+2038   14.33854    
+2039   14.19288    
+2040   14.20273    
+2041   14.24107    
+2042   14.24522    
+2043   14.44610    
+2044   14.51569    
+2045   14.69115    
+2046   14.72655    
+2047   14.61622    
+2048   14.46855    
+2049   14.57208    
+2050   14.58422    
+2051   14.64763    
+2052   14.68282    
+2053   14.76421    
+2054   14.68965    
+2055   14.61536    
+2056   14.79934    
+2057   14.74772    
+2058   14.97213    
+2059   14.82626    
+2060   14.90980    
+2061   14.71427    
+2062   15.01283    
+2063   14.88293    
+2064   14.94002    
+2065   14.79973    
+2066   14.99313    
+2067   14.89433    
+2068   15.12712    
+2069   14.99642    
+2070   15.22494    
+2071   15.25775    
+2072   15.04255    
+2073   15.15532    
+2074   15.07387    
+2075   15.08615    
+2076   15.12468    
+2077   15.17826    
+2078   15.27747    
+2079   15.43749    
+2080   15.53384    
+2081   15.31639    
+2082   15.53337    
+2083   15.42947    
+2084   15.45330    
+2085   15.47047    
+2086   15.49198    
+2087   15.56363    
+2088   15.65272    
+2089   15.86286    
+2090   15.92525    
+2091   16.02904    
+2092   15.82382    
+2093   15.53911    
+2094   15.59978    
+2095   15.78211    
+2096   15.77089    
+2097   15.86479    
+2098   16.06420    
+2099   15.99313    
+2100   15.92215    

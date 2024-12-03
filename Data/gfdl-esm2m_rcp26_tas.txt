@@ -1,0 +1,276 @@
+# ave_region :: lon=    0.000  360.000, lat=  -90.000   90.000
+# branch_time :: 52925
+# cdi :: Climate Data Interface version 1.5.9 (http://code.zmaw.de/projects/cdi)
+# cdo :: Climate Data Operators version 1.5.9 (http://code.zmaw.de/projects/cdo)
+# comment :: \nGFDL experiment name = ESM2M-C1_all_historical_HC1. PCMDI experiment name = historical (run1). Initial conditions for this experiment were taken from 1 January of year 1861 of the parent experiment, ESM2M-C1_1700-1860_historical_HC1, which is an unpublished experiment branched from 1 January of year 1 of 1860 control model experiment, ESM2M_pi-control_C1 (piControl). This parent experiment is an extension of piControl except historical transitions of land use are applied from 1700-1860 in order to allow the terrestrial carbon stores to respond to the imposition of land use and produce realistic fluxes by the start of the historical run in 1861. Several forcing agents varied during the 145 year duration of the ESM2M-C1_all_historical_HC1 experiment in a manner based upon observations and reconstructions for the late 19th and 20th centuries. The aerosol concentrations were computed by an off-line model. The time varying forcing agents include the well-mixed greenhouse gases (CO2, CH4, N2O, halons), tropospheric and stratospheric O3, aerosol concentrations (sulfate, black and organic carbon, sea salt, dust), volcanic aerosols, solar irradiance and land use transitions. The direct effect of tropospheric aerosols is calculated by the model, but not the indirect effects.
+# contact :: gfdl.climate.model.info@noaa.gov
+# creation_date :: 2011-08-15T06:39:46Z
+# description :: GFDL-ESM2M rcp26 tas 0-360E -90-90N ensemble
+# experiment :: RCP2.6
+# experiment_id :: historical+rcp26
+# file :: /data/volume_2/climexp/data/icmip5_tas_Amon_GFDL-ESM2M_rcp26_0-360E_-90-90N_n_000.dat
+# forcing :: GHG,SD,Oz,LU,SS,BC,MD,OC (GHG includes CO2, CH4, N2O, CFC11, CFC12, HCFC22, CFC113)
+# frequency :: mon
+# gfdl_experiment_name :: ESM2M-HC1_2006-2100_all_rcp26_WC1
+# history ::  2022-10-25 19:46:15 bin/daily2longer data/icmip5_tas_Amon_GFDL-ESM2M_rcp26_0-360E_-90-90N_n_000.dat 1 mean add_anom minfac 30 cmip5_tas_Amon_GFDL-ESM2M_rcp26_0-360E_-90-90N_n_+++_mean1_anom_30\n 2022-10-25 19:45:47 dat2nc ./data/icmip5_tas_Amon_GFDL-ESM2M_rcp26_0-360E_-90-90N_n_000.dat i GFDL-ESM2M_rcp26_tas_0-360E_-90-90N_ensemble ./data/icmip5_tas_Amon_GFDL-ESM2M_rcp26_0-360E_-90-90N_n_000.nc\n 2022-10-25 19:45:44 bin/get_index CMIP5/monthly/tas/tas_Amon_GFDL-ESM2M_rcp26_000.nc 0 360 -90 90 dipole no minfac 30 nearest lsmask CMIP5/fixed/sftlf_fx_GFDL-ESM2M_historical_r0i0p0.nc all nomissing cmip5_tas_Amon_GFDL-ESM2M_rcp26_0-360E_-90-90N_n_+++\nWed Mar 27 14:17:49 2013: cdo -f nc4 -z zip copy ethz/cmip5/historical/Amon/tas/GFDL-ESM2M/r1i1p1/tas_Amon_GFDL-ESM2M_historical_r1i1p1_186101-186512.nc ethz/cmip5/historical/Amon/tas/GFDL-ESM2M/r1i1p1/tas_Amon_GFDL-ESM2M_historical_r1i1p1_186601-187012.nc ethz/cmip5/historical/Amon/tas/GFDL-ESM2M/r1i1p1/tas_Amon_GFDL-ESM2M_historical_r1i1p1_187101-187512.nc ethz/cmip5/historical/Amon/tas/GFDL-ESM2M/r1i1p1/tas_Amon_GFDL-ESM2M_historical_r1i1p1_187601-188012.nc ethz/cmip5/historical/Amon/tas/GFDL-ESM2M/r1i1p1/tas_Amon_GFDL-ESM2M_historical_r1i1p1_188101-188512.nc ethz/cmip5/historical/Amon/tas/GFDL-ESM2M/r1i1p1/tas_Amon_GFDL-ESM2M_historical_r1i1p1_188601-189012.nc ethz/cmip5/historical/Amon/tas/GFDL-ESM2M/r1i1p1/tas_Amon_GFDL-ESM2M_historical_r1i1p1_189101-189512.nc ethz/cmip5/historical/Amon/tas/GFDL-ESM2M/r1i1p1/tas_Amon_GFDL-ESM2M_historical_r1i1p1_189601-190012.nc ethz/cmip5/historical/Amon/tas/GFDL-ESM2M/r1i1p1/tas_Amon_GFDL-ESM2M_historical_r1i1p1_190101-190512.nc\nFile was processed by fremetar (GFDL analog of CMOR). TripleID: [exper_id_vP7w16G9pf,realiz_id_RltE7lCPjj,run_id_HtkCvt60OR]
+# initialization_method ::        1
+# institute_id :: NOAA GFDL
+# institution :: KNMI Climate Explorer and NOAA GFDL(201 Forrestal Rd, Princeton, NJ, 08540)
+# minimal_valid_fraction ::  30.00
+# model_id :: GFDL-ESM2M
+# modeling_realm :: atmos
+# olderfile :: CMIP5/monthly/tas/tas_Amon_GFDL-ESM2M_rcp26_000.nc
+# parent_experiment_id :: historical
+# parent_experiment_rip :: r1i1p1
+# physics_version ::        1
+# product :: output1
+# project_id :: CMIP5
+# realization ::        1
+# references :: The GFDL Data Portal (http://nomads.gfdl.noaa.gov/) provides access to NOAA/GFDL's publicly available model input and output data sets. From this web site one can view and download data sets and documentation, including those related to the GFDL coupled models experiments run for the IPCC's 5th Assessment Report and the US CCSP.
+# scripturl01 :: http://climexp.knmi.nl/get_index.cgi?email=someone@somewhere&field=cmip5_tas_Amon_GFDL-ESM2M_rcp26&gridpoints=false&intertype=nearest&masktype=all
+# scripturl02 :: http://climexp.knmi.nl/daily2longer.cgi?EMAIL=someone@somewhere&NAME=mean&NPERYEAR=12&STATION=GFDL-ESM2M_rcp26_tas_0-360E_-90-90N_ensemble&TYPE=i&WMO=cmip5_tas_Amon_GFDL-ESM2M_rcp26_0-360E_-90-90N_n_%%%&addoption=add_anom&minfac=30&nperyearnew=1&oper=mean&sum=1
+# source :: GFDL-ESM2M 2010 ocean: MOM4 (MOM4p1_x1_Z50_cCM2M,Tripolar360x200L50); atmosphere: AM2 (AM2p14,M45L24); sea ice: SIS (SISp2,Tripolar360x200L50); land: LM3 (LM3p7_cESM,M45)
+# table_id :: Table Amon (31 Jan 2011)
+# tas [Celsius] annual mean of Near-Surface Air Temperature
+# title :: spatial statistic of NOAA GFDL GFDL-ESM2M, RCP2.6 (run 1) experiment output for CMIP5 AR5 r1i1p1
+# tracking_id :: b1d2bcb8-e2c1-4fca-932f-7e0336ed58a7
+1861   13.64970    
+1862   13.75379    
+1863   13.76595    
+1864   13.65925    
+1865   13.73125    
+1866   13.89018    
+1867   13.85619    
+1868   13.75356    
+1869   13.89148    
+1870   13.92986    
+1871   13.88000    
+1872   13.68020    
+1873   13.83161    
+1874   13.90264    
+1875   13.90253    
+1876   13.61886    
+1877   13.66732    
+1878   13.53843    
+1879   13.71029    
+1880   13.73815    
+1881   13.66077    
+1882   13.73490    
+1883   13.73477    
+1884   13.40293    
+1885   13.31125    
+1886   13.44997    
+1887   13.33379    
+1888   13.47505    
+1889   13.54002    
+1890   13.73877    
+1891   13.70154    
+1892   13.62179    
+1893   13.62141    
+1894   13.79480    
+1895   13.96929    
+1896   14.08115    
+1897   13.69560    
+1898   13.74167    
+1899   13.88759    
+1900   13.96342    
+1901   13.85220    
+1902   13.84382    
+1903   13.59166    
+1904   13.61145    
+1905   13.91937    
+1906   13.95055    
+1907   13.76014    
+1908   13.78432    
+1909   13.86577    
+1910   13.91808    
+1911   14.02621    
+1912   13.78344    
+1913   13.69557    
+1914   13.87994    
+1915   13.94274    
+1916   13.96198    
+1917   13.90917    
+1918   13.97755    
+1919   13.92263    
+1920   13.98695    
+1921   13.98546    
+1922   13.96879    
+1923   13.88698    
+1924   13.86884    
+1925   13.81670    
+1926   14.11231    
+1927   14.22546    
+1928   13.82729    
+1929   13.85480    
+1930   13.94918    
+1931   13.84841    
+1932   14.01209    
+1933   14.05696    
+1934   13.79226    
+1935   13.81990    
+1936   14.13783    
+1937   14.24643    
+1938   13.78383    
+1939   13.75850    
+1940   13.86147    
+1941   13.90141    
+1942   14.05844    
+1943   13.76071    
+1944   13.83109    
+1945   14.12946    
+1946   13.92146    
+1947   13.89631    
+1948   14.06577    
+1949   13.81308    
+1950   13.89709    
+1951   13.97130    
+1952   14.22611    
+1953   14.03922    
+1954   13.94556    
+1955   13.91335    
+1956   13.99193    
+1957   14.23374    
+1958   14.01571    
+1959   13.99767    
+1960   14.24623    
+1961   14.22782    
+1962   13.93951    
+1963   13.79522    
+1964   13.59002    
+1965   13.74865    
+1966   13.95543    
+1967   13.81035    
+1968   13.75462    
+1969   13.78867    
+1970   13.84977    
+1971   13.93372    
+1972   13.96593    
+1973   14.19230    
+1974   13.98759    
+1975   13.84580    
+1976   13.90949    
+1977   14.11492    
+1978   14.11248    
+1979   14.10409    
+1980   14.14445    
+1981   14.05299    
+1982   14.20248    
+1983   14.14571    
+1984   14.14006    
+1985   14.01608    
+1986   14.17234    
+1987   14.41128    
+1988   14.45504    
+1989   14.00743    
+1990   14.13747    
+1991   14.40549    
+1992   14.17722    
+1993   13.99996    
+1994   14.09539    
+1995   14.21972    
+1996   14.58323    
+1997   14.56100    
+1998   14.30237    
+1999   14.35569    
+2000   14.60989    
+2001   14.68745    
+2002   14.69223    
+2003   14.41560    
+2004   14.51477    
+2005   14.60298    
+2006   14.71145    
+2007   14.73294    
+2008   14.76982    
+2009   14.55212    
+2010   14.66319    
+2011   14.71818    
+2012   14.71721    
+2013   14.61387    
+2014   14.80584    
+2015   14.83900    
+2016   14.73955    
+2017   14.75173    
+2018   14.90885    
+2019   14.89124    
+2020   14.89299    
+2021   15.01540    
+2022   14.81990    
+2023   14.87175    
+2024   14.85506    
+2025   14.91869    
+2026   15.06843    
+2027   14.87042    
+2028   14.98479    
+2029   15.00517    
+2030   15.12065    
+2031   15.20294    
+2032   14.81645    
+2033   14.91626    
+2034   15.09648    
+2035   15.22844    
+2036   14.89660    
+2037   14.86160    
+2038   14.96190    
+2039   14.92334    
+2040   15.02116    
+2041   15.19789    
+2042   14.92978    
+2043   14.75678    
+2044   14.90560    
+2045   14.93045    
+2046   14.99703    
+2047   15.17766    
+2048   15.15771    
+2049   14.97389    
+2050   14.90834    
+2051   14.88857    
+2052   15.10611    
+2053   15.10760    
+2054   15.11272    
+2055   15.02171    
+2056   15.14711    
+2057   15.04084    
+2058   14.89687    
+2059   14.99421    
+2060   14.92191    
+2061   14.88100    
+2062   15.05675    
+2063   14.84970    
+2064   14.98111    
+2065   15.07566    
+2066   14.94418    
+2067   15.01212    
+2068   15.01840    
+2069   15.21578    
+2070   15.42269    
+2071   15.37750    
+2072   14.98841    
+2073   15.09432    
+2074   15.08259    
+2075   15.02097    
+2076   15.15258    
+2077   15.14399    
+2078   14.98466    
+2079   14.97218    
+2080   14.91384    
+2081   14.82930    
+2082   15.01912    
+2083   15.05206    
+2084   14.93014    
+2085   14.96486    
+2086   15.01354    
+2087   15.07255    
+2088   14.98861    
+2089   15.25276    
+2090   15.08834    
+2091   14.87504    
+2092   14.96514    
+2093   15.11906    
+2094   15.10824    
+2095   15.09089    
+2096   15.12644    
+2097   15.09853    
+2098   14.87112    
+2099   15.05916    
+2100   15.19274    

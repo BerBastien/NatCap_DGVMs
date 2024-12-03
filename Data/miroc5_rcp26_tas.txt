@@ -1,0 +1,292 @@
+# ensemble mea of file data/icmip5_tas_Amon_MIROC5_rcp26_0-360E_-90-90N_n_+++_mean1_anom_30.dat
+# using members   0 to   2
+# tas [Celsius] annual mean of Near-Surface Air Temperature
+# file :: data/icmip5_tas_Amon_MIROC5_rcp26_0-360E_-90-90N_n_+++_mean1_anom_30.dat
+# description :: MIROC5 rcp26 tas 0-360E -90-90N ensemble
+# ave_region :: lon=   -0.703  359.297, lat=  -89.622   89.622
+# branch_time ::  56940.0
+# cdi :: Climate Data Interface version 1.5.9 (http://code.zmaw.de/projects/cdi)
+# cdo :: Climate Data Operators version 1.5.9 (http://code.zmaw.de/projects/cdo)
+# cmor_version :: 2.7.1
+# comment :: \n
+# contact :: Masahiro Watanabe (hiro@aori.u-tokyo.ac.jp), Seita Emori (emori@nies.go.jp), Masayoshi Ishii (ism@jamstec.go.jp), Masahide Kimoto (kimoto@aori.u-tokyo.ac.jp)
+# creation_date :: 2011-09-12T02:25:27Z
+# experiment :: RCP2.6
+# experiment_id :: historical+rcp26
+# olderfile :: /data/volume_2/climexp/data/icmip5_tas_Amon_MIROC5_rcp26_0-360E_-90-90N_n_000.dat
+# forcing :: GHG, SA, Oz, LU, Sl, Vl, SS, Ds, BC, MD, OC (GHG includes CO2, N2O, methane, and fluorocarbons; Oz includes OH and H2O2; LU excludes change in lake fraction)
+# frequency :: mon
+# initialization_method ::                1
+# institute_id :: MIROC
+# institution :: KNMI Climate Explorer and AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba, Japan), NIES (National Institute for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa, Japan)
+# minimal_valid_fraction ::  30.00
+# model_id :: MIROC5
+# modeling_realm :: atmos
+# olderfile :: CMIP5/monthly/tas/tas_Amon_MIROC5_rcp26_000.nc
+# parent_experiment :: historical
+# parent_experiment_id :: historical
+# parent_experiment_rip :: r1i1p1
+# physics_version ::        1
+# product :: output
+# project_id :: CMIP5
+# realization ::        1
+# references :: Watanabe et al., 2010: Improved climate simulation by MIROC5: Mean states, variability, and climate sensitivity. J. Climate, 23, 6312-6335
+# scripturl01 :: http://climexp.knmi.nl/get_index.cgi?email=someone@somewhere&field=cmip5_tas_Amon_MIROC5_rcp26&gridpoints=false&intertype=nearest&masktype=all
+# scripturl02 :: http://climexp.knmi.nl/daily2longer.cgi?EMAIL=someone@somewhere&NAME=mean&NPERYEAR=12&STATION=MIROC5_rcp26_tas_0-360E_-90-90N_ensemble&TYPE=i&WMO=cmip5_tas_Amon_MIROC5_rcp26_0-360E_-90-90N_n_%%%&addoption=add_anom&minfac=30&nperyearnew=1&oper=mean&sum=1
+# source :: MIROC5 2010 atmosphere: MIROC-AGCM6 (T85L40); ocean: COCO (COCO4.5, 256x224 L50); sea ice: COCO (COCO4.5); land: MATSIRO (MATSIRO, L6); aerosols: SPRINTARS (SPRINTARS 5.00, T85L40)
+# table_id :: Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1
+# tracking_id :: 4cdc3425-84b3-4252-a530-ad36a2370567
+# title :: spatial statistic of MIROC5 model output prepared for CMIP5 RCP2.6 r1i1p1
+# scripturl03 :: http://climexp.knmi.nl/average_ensemble.cgi?EMAIL=someone@somewhere&NPERYEAR=1&oper=mean&station=MIROC5_rcp26_tas_0-360E_-90-90N_ensemble&type=i&wmo=cmip5_tas_Amon_MIROC5_rcp26_0-360E_-90-90N_n_%%%_mean1_anom_30
+# history ::  2022-10-25 20:16:34 ./bin/average_ensemble data/icmip5_tas_Amon_MIROC5_rcp26_0-360E_-90-90N_n_+++_mean1_anom_30.dat ens 0 999 mean cmip5_tas_Amon_MIROC5_rcp26_0-360E_-90-90N_n_mean_mean1_anom_30\n 2022-10-25 20:16:03 dat2nc ./data/icmip5_tas_Amon_MIROC5_rcp26_0-360E_-90-90N_n_000_mean1_anom_30.dat i MIROC5_rcp26_tas_0-360E_-90-90N_ensemble ./data/icmip5_tas_Amon_MIROC5_rcp26_0-360E_-90-90N_n_000_mean1_anom_30.nc\n 2022-10-25 20:16:01 bin/daily2longer data/icmip5_tas_Amon_MIROC5_rcp26_0-360E_-90-90N_n_000.dat 1 mean add_anom minfac 30 cmip5_tas_Amon_MIROC5_rcp26_0-360E_-90-90N_n_+++_mean1_anom_30\n 2022-10-25 20:15:45 dat2nc ./data/icmip5_tas_Amon_MIROC5_rcp26_0-360E_-90-90N_n_000.dat i MIROC5_rcp26_tas_0-360E_-90-90N_ensemble ./data/icmip5_tas_Amon_MIROC5_rcp26_0-360E_-90-90N_n_000.nc\n 2022-10-25 20:15:15 bin/get_index CMIP5/monthly/tas/tas_Amon_MIROC5_rcp26_000.nc 0 360 -90 90 dipole no minfac 30 nearest lsmask CMIP5/fixed/sftlf_fx_MIROC5_historical_r0i0p0.nc all nomissing cmip5_tas_Amon_MIROC5_rcp26_0-360E_-90-90N_n_+++\nWed Mar 27 14:23:22 2013: cdo -f nc4 -z zip copy tas/tas_Amon_MIROC5_historical_r1i1p1_upto2005.nc ethz/cmip5/rcp26/Amon/tas/MIROC5/r1i1p1/tas_Amon_MIROC5_rcp26_r1i1p1_200601-210012.nc tas/tas_Amon_MIROC5_rcp26_r1i1p1.nc\nWed Mar 27 14:23:07 2013: cdo -f nc4 -z zip seldate,1850-01-01,2005-12-31 tas/tas_Amon_MIROC5_historical_r1i1p1.nc tas/tas_Amon_MIROC5_historical_r1i1p1_upto2005.nc\nWed Mar 27 13:49:09 2013: cdo -f nc4 -z zip copy ethz/cmip5/historical/Amon/tas/MIROC5/r1i1p1/tas_Amon_MIROC5_historical_r1i1p1_185001-201212.nc tas/tas_Amon_MIROC5_historical_r1i1p1.nc\n2011-04-23T08:59:51Z CMOR rewrote data to comply with CF standards and CMIP5 requirements.
+ 1850   14.42786    
+ 1851   14.44817    
+ 1852   14.42319    
+ 1853   14.53019    
+ 1854   14.47272    
+ 1855   14.45991    
+ 1856   14.46486    
+ 1857   14.39508    
+ 1858   14.40251    
+ 1859   14.35295    
+ 1860   14.37762    
+ 1861   14.43279    
+ 1862   14.49270    
+ 1863   14.54944    
+ 1864   14.48725    
+ 1865   14.40796    
+ 1866   14.43254    
+ 1867   14.45772    
+ 1868   14.51751    
+ 1869   14.47170    
+ 1870   14.43756    
+ 1871   14.50353    
+ 1872   14.55412    
+ 1873   14.55145    
+ 1874   14.47847    
+ 1875   14.57149    
+ 1876   14.65194    
+ 1877   14.56138    
+ 1878   14.51492    
+ 1879   14.40494    
+ 1880   14.47759    
+ 1881   14.54303    
+ 1882   14.52618    
+ 1883   14.46758    
+ 1884   14.28081    
+ 1885   14.24064    
+ 1886   14.25564    
+ 1887   14.26279    
+ 1888   14.30406    
+ 1889   14.34908    
+ 1890   14.40186    
+ 1891   14.37041    
+ 1892   14.23973    
+ 1893   14.29937    
+ 1894   14.39429    
+ 1895   14.46714    
+ 1896   14.46878    
+ 1897   14.43402    
+ 1898   14.40855    
+ 1899   14.45038    
+ 1900   14.51907    
+ 1901   14.43911    
+ 1902   14.41067    
+ 1903   14.34591    
+ 1904   14.28305    
+ 1905   14.30811    
+ 1906   14.41647    
+ 1907   14.53225    
+ 1908   14.43036    
+ 1909   14.48657    
+ 1910   14.50739    
+ 1911   14.49766    
+ 1912   14.48965    
+ 1913   14.40577    
+ 1914   14.35723    
+ 1915   14.39093    
+ 1916   14.47161    
+ 1917   14.50076    
+ 1918   14.55524    
+ 1919   14.50319    
+ 1920   14.48211    
+ 1921   14.55125    
+ 1922   14.68517    
+ 1923   14.77769    
+ 1924   14.73055    
+ 1925   14.59776    
+ 1926   14.52318    
+ 1927   14.54300    
+ 1928   14.56349    
+ 1929   14.63211    
+ 1930   14.66579    
+ 1931   14.75434    
+ 1932   14.90828    
+ 1933   14.64970    
+ 1934   14.51493    
+ 1935   14.53932    
+ 1936   14.55033    
+ 1937   14.64378    
+ 1938   14.65722    
+ 1939   14.66021    
+ 1940   14.67444    
+ 1941   14.68177    
+ 1942   14.78180    
+ 1943   14.83400    
+ 1944   14.66673    
+ 1945   14.64542    
+ 1946   14.74324    
+ 1947   14.81831    
+ 1948   14.78826    
+ 1949   14.74569    
+ 1950   14.84829    
+ 1951   15.05766    
+ 1952   14.94187    
+ 1953   14.59363    
+ 1954   14.53501    
+ 1955   14.63272    
+ 1956   14.75343    
+ 1957   14.76616    
+ 1958   14.72491    
+ 1959   14.77217    
+ 1960   14.85707    
+ 1961   14.79371    
+ 1962   14.54576    
+ 1963   14.53966    
+ 1964   14.49834    
+ 1965   14.55647    
+ 1966   14.62029    
+ 1967   14.52103    
+ 1968   14.50215    
+ 1969   14.50424    
+ 1970   14.56885    
+ 1971   14.58824    
+ 1972   14.55607    
+ 1973   14.53721    
+ 1974   14.67960    
+ 1975   14.71675    
+ 1976   14.79857    
+ 1977   14.70900    
+ 1978   14.75927    
+ 1979   14.68055    
+ 1980   14.69484    
+ 1981   14.80853    
+ 1982   14.81170    
+ 1983   14.63399    
+ 1984   14.52219    
+ 1985   14.55874    
+ 1986   14.70226    
+ 1987   14.86440    
+ 1988   14.92091    
+ 1989   14.89401    
+ 1990   14.86729    
+ 1991   14.84951    
+ 1992   14.65337    
+ 1993   14.83250    
+ 1994   14.86661    
+ 1995   14.79809    
+ 1996   14.78279    
+ 1997   14.97237    
+ 1998   15.05254    
+ 1999   15.05803    
+ 2000   15.09830    
+ 2001   15.16494    
+ 2002   15.25491    
+ 2003   15.25197    
+ 2004   15.30447    
+ 2005   15.27103    
+ 2006   15.20213    
+ 2007   15.29103    
+ 2008   15.43200    
+ 2009   15.31421    
+ 2010   15.28494    
+ 2011   15.29246    
+ 2012   15.30082    
+ 2013   15.43493    
+ 2014   15.65836    
+ 2015   15.52412    
+ 2016   15.44678    
+ 2017   15.41067    
+ 2018   15.36348    
+ 2019   15.46445    
+ 2020   15.55241    
+ 2021   15.41204    
+ 2022   15.42932    
+ 2023   15.57026    
+ 2024   15.56945    
+ 2025   15.58836    
+ 2026   15.71408    
+ 2027   15.62738    
+ 2028   15.69756    
+ 2029   15.75368    
+ 2030   15.72687    
+ 2031   15.68685    
+ 2032   15.74256    
+ 2033   15.83766    
+ 2034   15.78512    
+ 2035   15.83437    
+ 2036   15.81729    
+ 2037   15.76789    
+ 2038   15.83837    
+ 2039   15.93897    
+ 2040   15.99543    
+ 2041   16.04107    
+ 2042   15.93741    
+ 2043   15.79689    
+ 2044   15.85785    
+ 2045   15.94030    
+ 2046   15.93273    
+ 2047   16.05593    
+ 2048   16.03414    
+ 2049   15.81840    
+ 2050   15.78777    
+ 2051   15.90855    
+ 2052   16.13884    
+ 2053   15.91583    
+ 2054   15.85731    
+ 2055   15.89166    
+ 2056   16.07914    
+ 2057   16.04672    
+ 2058   15.90523    
+ 2059   15.91390    
+ 2060   16.06904    
+ 2061   16.25744    
+ 2062   16.14852    
+ 2063   15.87928    
+ 2064   15.81560    
+ 2065   16.01528    
+ 2066   16.12657    
+ 2067   16.07293    
+ 2068   15.86438    
+ 2069   15.92182    
+ 2070   16.08601    
+ 2071   16.05515    
+ 2072   15.95716    
+ 2073   16.07342    
+ 2074   16.14473    
+ 2075   16.14485    
+ 2076   16.04257    
+ 2077   15.85520    
+ 2078   15.85911    
+ 2079   15.91277    
+ 2080   15.95505    
+ 2081   16.00578    
+ 2082   16.11764    
+ 2083   16.12228    
+ 2084   15.84961    
+ 2085   15.83606    
+ 2086   15.88943    
+ 2087   16.07793    
+ 2088   16.16400    
+ 2089   15.95890    
+ 2090   15.78576    
+ 2091   15.88617    
+ 2092   16.01062    
+ 2093   16.08102    
+ 2094   16.03796    
+ 2095   15.95642    
+ 2096   15.86218    
+ 2097   15.89632    
+ 2098   16.04627    
+ 2099   16.14891    
+ 2100   15.95222    

@@ -1,0 +1,13 @@
+#output directories
+Figures/
+Data/cveg_rasters
+Data/PFT_rasters
+Data/out
+
+#external data
+External_Data/
+
+#temporary files
+.Rproj.user
+*.Rproj
+.Rhistory
